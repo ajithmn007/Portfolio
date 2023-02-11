@@ -10,6 +10,17 @@
   height: 3rem;
 }
 
+.sticky {
+  background-color: #fff;
+  position: fixed;
+  width: 100%;
+  box-shadow: 20px 0 20px #efefef;
+}
+
+.sticky a, .sticky h5 {
+  color: black !important;
+}
+
 .hide {
   top: -4rem;
 }
