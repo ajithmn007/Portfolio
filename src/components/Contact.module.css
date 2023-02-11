@@ -1,0 +1,74 @@
+.contact-control h5 {
+  text-align: center;
+  font-size: x-large;
+  padding: 1rem 1rem 1rem 1rem;
+}
+
+.contact-control {
+  padding-bottom: 3rem;
+}
+.contact-control h5::after {
+  content: " ";
+  height: 2px;
+  width: 6rem;
+  background-color: black;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.contact {
+  padding-top: 1.5rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+.icon {
+  width: 2vw;
+  height: 2vw;
+}
+
+.icon-round {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 4vw;
+  height: 4vw;
+  border-radius: 50%;
+  border: 1.3px solid black;
+}
+
+.position {
+  display: flex;
+  justify-content: center;
+}
+
+.details {
+  padding-left: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .contact {
+    display: block;
+  }
+  .position {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 40%;
+    padding: 0.5rem 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .position {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0.5rem 2rem;
+    margin: 0;
+    align-items: center;
+  }
+  .icon-round {
+    width: 6vw;
+    height: 6vw;
+  }
+}

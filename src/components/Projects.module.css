@@ -1,0 +1,72 @@
+.project_control {
+  padding-bottom: 3rem;
+}
+
+.h5 {
+  text-align: center;
+  font-size: x-large;
+  padding: 3rem 1rem 1rem 1rem;
+}
+
+.h5::after {
+  content: "";
+  display: block;
+  width: 4rem;
+  background-color: black;
+  height: 3px;
+  text-align: center;
+  margin: 0 auto;
+}
+.projects {
+  display: flex;
+  padding: 0.5rem;
+}
+
+.project {
+  max-width: 50%;
+  padding: 0 2rem;
+  text-align: center;
+}
+
+.project h5 {
+  text-align: center;
+  font-size: x-large;
+  padding: 1rem;
+}
+
+.icons {
+  font-size: 13vw;
+  text-align: center;
+}
+
+.project p {
+  text-align: justify;
+  padding: 0 0.5rem 2rem 0.5rem;
+}
+.project a {
+  padding: 0.5rem 2rem;
+  color: white;
+  background-color: #00892d;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: medium;
+  text-decoration: none;
+}
+
+.project a:hover {
+  background-color: #006923;
+}
+
+@media screen and (max-width: 768px) {
+  .projects {
+    display: block;
+  }
+  .project {
+    max-width: 100%;
+    padding: 0.5rem;
+  }
+  .icons {
+    font-size: 18vw;
+    text-align: center;
+  }
+}
