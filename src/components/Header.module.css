@@ -1,28 +1,8 @@
 .header {
-  z-index: 5;
-  position: sticky;
-  top: 0;
-  left: 0;
   margin: 0 auto;
   font-size: 1rem;
   font-weight: 400;
   color: #fff;
-  height: 3rem;
-}
-
-.sticky {
-  background-color: #fff;
-  position: fixed;
-  width: 100%;
-  box-shadow: 20px 0 20px #efefef;
-}
-
-.sticky a, .sticky h5 {
-  color: black !important;
-}
-
-.hide {
-  top: -4rem;
 }
 
 .nav {
@@ -46,19 +26,34 @@
   font-size: larger;
 }
 
-.li a:hover {
+a:hover {
   text-decoration: underline;
 }
 
 .li a:active {
-  color: aquamarine;
   text-decoration: underline;
 }
+
 @media (min-width: 768px) {
   .li {
     padding: 2rem 1rem;
   }
   .ul {
     display: flex;
+  }
+}
+
+@media (min-width: 768px) {
+  .sticky {
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    box-shadow: 20px 0 20px #efefef;
+    z-index: 10;
+  }
+
+  .sticky a,
+  .sticky h5 {
+    color: black !important;
   }
 }

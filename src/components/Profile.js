@@ -4,7 +4,7 @@ import styles from "./Profile.module.css";
 
 export default function Profile() {
   return (
-    <section>
+    <section id= {"home"}>
       <div className={styles.content}>
         <figure>
           <img className={styles.image} src={image} alt="" title="image" />

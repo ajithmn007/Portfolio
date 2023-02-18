@@ -4,6 +4,7 @@ import { MdMail, MdLocationOn } from "react-icons/md";
 import { ImCalendar, ImPhone } from "react-icons/im";
 import { GrLinkedinOption } from "react-icons/gr";
 import { IconContext } from "react-icons";
+import resume from "../Assets/Resume.pdf";
 
 export default function Skills() {
   return (
@@ -65,7 +66,7 @@ export default function Skills() {
             </a>
 
             <a
-              href="/resume"
+              href={resume}
               className={styles.resume}
               target="_blank"
               rel="noreferrer"
